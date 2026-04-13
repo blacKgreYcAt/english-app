@@ -1,0 +1,152 @@
+[
+  {
+    "id": "FRY_001",
+    "word": "the",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "heart_word",
+    "phonicsTip": "這個字不符合發音規則，要用心(Heart)記下來喔！",
+    "translation": "這、那 (定冠詞)",
+    "audioUrl": "/audio/words/the.mp3",
+    "example": {
+      "en": "Look at the cat.",
+      "zh": "看那隻貓。",
+      "highlight": "the"
+    }
+  },
+  {
+    "id": "FRY_002",
+    "word": "of",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "heart_word",
+    "phonicsTip": "f 在這裡發 /v/ 的聲音，要特別小心！",
+    "translation": "的、屬於",
+    "audioUrl": "/audio/words/of.mp3",
+    "example": {
+      "en": "A cup of water.",
+      "zh": "一杯水。",
+      "highlight": "of"
+    }
+  },
+  {
+    "id": "FRY_003",
+    "word": "and",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "decodable",
+    "phonicsTip": "短母音 a /æ/ 加上 n /n/ 和 d /d/，直接拼出來！",
+    "translation": "和、與",
+    "audioUrl": "/audio/words/and.mp3",
+    "example": {
+      "en": "Apples and bananas.",
+      "zh": "蘋果和香蕉。",
+      "highlight": "and"
+    }
+  },
+  {
+    "id": "FRY_004",
+    "word": "a",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "heart_word",
+    "phonicsTip": "在句子裡通常念輕聲 /ə/ (阿)。",
+    "translation": "一個 (不定冠詞)",
+    "audioUrl": "/audio/words/a.mp3",
+    "example": {
+      "en": "I see a dog.",
+      "zh": "我看到一隻狗。",
+      "highlight": "a"
+    }
+  },
+  {
+    "id": "FRY_005",
+    "word": "to",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "heart_word",
+    "phonicsTip": "o 在這裡發長音 /u/，不發短音喔。",
+    "translation": "到、向",
+    "audioUrl": "/audio/words/to.mp3",
+    "example": {
+      "en": "Go to sleep.",
+      "zh": "去睡覺。",
+      "highlight": "to"
+    }
+  },
+  {
+    "id": "FRY_006",
+    "word": "in",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "decodable",
+    "phonicsTip": "短母音 i /ɪ/ 加上 n /n/，很簡單吧！",
+    "translation": "在...裡面",
+    "audioUrl": "/audio/words/in.mp3",
+    "example": {
+      "en": "The toy is in the box.",
+      "zh": "玩具在箱子裡。",
+      "highlight": "in"
+    }
+  },
+  {
+    "id": "FRY_007",
+    "word": "is",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "heart_word",
+    "phonicsTip": "s 在字尾常常會發出像蜜蜂的 /z/ 音。",
+    "translation": "是 (單數)",
+    "audioUrl": "/audio/words/is.mp3",
+    "example": {
+      "en": "He is my friend.",
+      "zh": "他是我的朋友。",
+      "highlight": "is"
+    }
+  },
+  {
+    "id": "FRY_008",
+    "word": "you",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "heart_word",
+    "phonicsTip": "ou 在這裡發 /u/ 的聲音，整組記下來！",
+    "translation": "你、你們",
+    "audioUrl": "/audio/words/you.mp3",
+    "example": {
+      "en": "Thank you!",
+      "zh": "謝謝你！",
+      "highlight": "you"
+    }
+  },
+  {
+    "id": "FRY_009",
+    "word": "that",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "decodable",
+    "phonicsTip": "th 咬舌頭發濁音 /ð/，配上短母音 a /æ/。",
+    "translation": "那個",
+    "audioUrl": "/audio/words/that.mp3",
+    "example": {
+      "en": "I want that one.",
+      "zh": "我要那個。",
+      "highlight": "that"
+    }
+  },
+  {
+    "id": "FRY_010",
+    "word": "it",
+    "level": 1,
+    "group": 1,
+    "phonicsType": "decodable",
+    "phonicsTip": "短母音 i /ɪ/ 加上 t /t/。",
+    "translation": "它、牠",
+    "audioUrl": "/audio/words/it.mp3",
+    "example": {
+      "en": "It is a rainy day.",
+      "zh": "今天是一個雨天。",
+      "highlight": "it"
+    }
+  }
+]

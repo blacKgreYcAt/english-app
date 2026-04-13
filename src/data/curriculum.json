@@ -1,0 +1,118 @@
+[
+  {
+    "courseId": "GRADE_1",
+    "levelName": "小學一年級：魔法學徒的起點",
+    "modules": [
+      {
+        "moduleId": "G1_M1",
+        "moduleTitle": "空間魔法師：基礎介係詞與短母音 a",
+        "description": "學習 in, on, under 並且掌握短母音 a 的發音與 Fry 基礎詞！",
+        "rewardCard": {
+          "cardId": "CARD_G1_01",
+          "cardName": "蘋果小精靈 (Apple Sprite)",
+          "element": "Nature",
+          "rarity": "Common"
+        },
+        "lessons": [
+          {
+            "lessonId": "L1_PREP_UNDER",
+            "type": "teaching",
+            "title": "單字精靈在哪裡？認識 UNDER",
+            "content": {
+              "text": "Look! The cat is UNDER the table. (看！貓咪在桌子『下面』。)",
+              "highlight": "UNDER",
+              "phonicsTip": "字母 'u' 在這裡發短音 /ʌ/，像肚子被輕輕打一下的聲音！",
+              "image": "/images/prepositions/cat_under_table.png",
+              "audio": "/audio/under.mp3"
+            }
+          },
+          {
+            "lessonId": "L1_PRACTICE_01",
+            "type": "image_practice",
+            "title": "動手試試看",
+            "instruction": "請把狗狗 (Dog) 拖曳到箱子 (Box) 的『裡面 (IN)』。",
+            "targetArea": "IN",
+            "interactiveImages": {
+              "object": "/images/items/dog.png",
+              "background": "/images/items/box.png"
+            },
+            "successMessage": "太棒了！The dog is IN the box!"
+          }
+        ],
+        "quiz": {
+          "quizId": "Q_G1_M1",
+          "questions": [
+            {
+              "questionId": "Q1",
+              "questionText": "Fry 1000 挑戰：聽發音，選出正確的單字",
+              "audio": "/audio/fry/and.mp3",
+              "options": [
+                { "id": "A", "text": "and" },
+                { "id": "B", "text": "ant" },
+                { "id": "C", "text": "end" }
+              ],
+              "correctOptionId": "A",
+              "errorExplanation": {
+                "B": "很接近喔！但字尾是 /d/ 的聲音，不是 /t/。'ant' 是螞蟻。",
+                "C": "注意開頭的母音！'end' 開頭是短母音 e /ɛ/，我們聽到的是短母音 a /æ/。",
+                "generalTip": "自然發音小秘訣：a-n-d -> /æ/ - /n/ - /d/，連起來就是 and！"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "courseId": "GRADE_2",
+    "levelName": "小學二年級：探索者之路",
+    "modules": [
+      {
+        "moduleId": "G2_M1",
+        "moduleTitle": "隱形魔法：進階介係詞與 Magic E",
+        "description": "學習 behind, next to，並發現字尾 e 讓母音變長音的秘密！",
+        "rewardCard": {
+          "cardId": "CARD_G2_01",
+          "cardName": "幻影變色龍 (Shadow Chameleon)",
+          "element": "Dark",
+          "rarity": "Uncommon"
+        },
+        "lessons": [
+          {
+            "lessonId": "L2_PHONICS_MAGIC_E",
+            "type": "teaching",
+            "title": "會施法術的 Magic E",
+            "content": {
+              "text": "當單字後面加上 e，前面的母音就會唸自己的名字！例如：mak + e = make",
+              "highlight": "make",
+              "phonicsTip": "聽聽看！'a' 從短音 /æ/ 變成了長音 /eɪ/。",
+              "image": "/images/phonics/magic_e_make.png",
+              "audio": "/audio/make.mp3"
+            }
+          }
+        ],
+        "quiz": {
+          "quizId": "Q_G2_M1",
+          "questions": [
+            {
+              "questionId": "Q1",
+              "questionText": "請看圖片，變色龍在哪裡？",
+              "image": "/images/prepositions/chameleon_behind_tree.png",
+              "options": [
+                { "id": "A", "text": "next to the tree" },
+                { "id": "B", "text": "behind the tree" },
+                { "id": "C", "text": "on the tree" }
+              ],
+              "correctOptionId": "B",
+              "errorExplanation": {
+                "A": "'next to' 是在旁邊，但變色龍躲在樹的後面喔！",
+                "C": "'on' 是在上面，再仔細找找。",
+                "generalTip": "BEHIND 就是躲在後面，別人看不見！"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
