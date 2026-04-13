@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 確保正確的字體設置支持繁體中文 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Traditional+Chinese:wght@400;500;700;900&display=swap');
+
+* {
+  font-family: 'Noto Sans Traditional Chinese', 'Segoe UI', 'Microsoft JhengHei', system-ui, sans-serif;
+}
