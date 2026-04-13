@@ -22,7 +22,7 @@
               "text": "Look! The cat is UNDER the table. (看！貓咪在桌子『下面』。)",
               "highlight": "UNDER",
               "phonicsTip": "字母 'u' 在這裡發短音 /ʌ/，像肚子被輕輕打一下的聲音！",
-              "image": "/images/prepositions/cat_under_table.png",
+              "image": "/images/prepositions/cat_under_table.svg",
               "audio": "/audio/under.mp3"
             }
           },
@@ -33,8 +33,8 @@
             "instruction": "請把狗狗 (Dog) 拖曳到箱子 (Box) 的『裡面 (IN)』。",
             "targetArea": "IN",
             "interactiveImages": {
-              "object": "/images/items/dog.png",
-              "background": "/images/items/box.png"
+              "object": "/images/items/dog.svg",
+              "background": "/images/items/box.svg"
             },
             "successMessage": "太棒了！The dog is IN the box!"
           }
@@ -86,7 +86,7 @@
               "text": "當單字後面加上 e，前面的母音就會唸自己的名字！例如：mak + e = make",
               "highlight": "make",
               "phonicsTip": "聽聽看！'a' 從短音 /æ/ 變成了長音 /eɪ/。",
-              "image": "/images/phonics/magic_e_make.png",
+              "image": "/images/phonics/magic_e_make.svg",
               "audio": "/audio/make.mp3"
             }
           }
@@ -97,7 +97,7 @@
             {
               "questionId": "Q1",
               "questionText": "請看圖片，變色龍在哪裡？",
-              "image": "/images/prepositions/chameleon_behind_tree.png",
+              "image": "/images/prepositions/chameleon_behind_tree.svg",
               "options": [
                 { "id": "A", "text": "next to the tree" },
                 { "id": "B", "text": "behind the tree" },
