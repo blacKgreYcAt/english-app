@@ -69,7 +69,7 @@ const TeachingBoard = ({ lessonData, onComplete }) => {
             </React.Fragment>
           ))}
           <button onClick={() => playTeacherVoice(content.text)} className="ml-4 p-2 bg-blue-500 text-white rounded-full hover:bg-blue-600" title="播放示範發音">
-            <SpeakerIcon className="w-6 h-6 text-white" />
+            <SpeakerIcon className="w-6 h-6" color="white" />
           </button>
         </p>
         <div className="mt-4 p-3 bg-yellow-100 text-yellow-800 rounded-xl flex items-center gap-2">
@@ -87,9 +87,9 @@ const TeachingBoard = ({ lessonData, onComplete }) => {
           title={isListening ? "正在錄音..." : "點擊錄音"}
         >
           {isListening ? (
-            <MicrophoneAnimatedIcon className="w-12 h-12 text-white" />
+            <MicrophoneAnimatedIcon className="w-12 h-12" color="white" />
           ) : (
-            <MicrophoneIcon className="w-12 h-12 text-white" />
+            <MicrophoneIcon className="w-12 h-12" color="white" />
           )}
         </button>
         <div className="mt-6 h-24">
