@@ -5,6 +5,7 @@ import ImagePractice from '../components/ImagePractice';
 import QuizEngine from '../components/QuizEngine';
 import { useUserProgress } from '../context/UserProgress';
 import curriculumData from '../data/curriculum.json';
+import { ArrowLeftIcon, CelebrationIcon } from '../components/Icons';
 
 const LessonPage = ({ currentModuleId, onBackToMap }) => {
   const { completeModule, unlockCard } = useUserProgress();
@@ -60,8 +61,12 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
     }
     if (phase === 'victory') return (
       <div className="text-center mt-20">
-        <h1 className="text-5xl text-yellow-500 mb-6">🎉 挑戰成功！ 🎉</h1>
-        <button onClick={onBackToMap} className="px-8 py-4 bg-blue-500 text-white rounded-full">回到學習地圖</button>
+        <div className="flex items-center justify-center gap-4 mb-6">
+          <CelebrationIcon className="w-16 h-16 text-yellow-500" />
+          <h1 className="text-5xl text-yellow-500">挑戰成功！</h1>
+          <CelebrationIcon className="w-16 h-16 text-yellow-500" />
+        </div>
+        <button onClick={onBackToMap} className="px-8 py-4 bg-blue-500 text-white rounded-full hover:bg-blue-600">回到學習地圖</button>
       </div>
     );
     return <div className="text-center text-red-500">錯誤：未知的階段 "{phase}"</div>;
@@ -69,7 +74,10 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
 
   return (
     <div className="min-h-screen bg-[#f0f9ff] p-6">
-      <button onClick={onBackToMap} className="mb-8 text-blue-600 font-bold">⬅️ 放棄挑戰</button>
+      <button onClick={onBackToMap} className="mb-8 text-blue-600 font-bold flex items-center gap-2 hover:text-blue-800">
+        <ArrowLeftIcon className="w-5 h-5" />
+        放棄挑戰
+      </button>
       {renderContent()}
     </div>
   );

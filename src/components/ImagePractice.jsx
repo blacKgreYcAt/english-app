@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
+import { StarIcon, CheckIcon } from './Icons';
 
 const ImagePractice = ({ lessonData, onComplete }) => {
   const { instruction, interactiveImages, successMessage } = lessonData;
@@ -58,7 +59,11 @@ const ImagePractice = ({ lessonData, onComplete }) => {
           </div>
         ) : (
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center animate-bounce">
-             <div className="text-6xl mb-4">✨🎉✨</div>
+             <div className="flex items-center justify-center gap-2 mb-4">
+               <StarIcon className="w-12 h-12 text-yellow-400" />
+               <CheckIcon className="w-12 h-12 text-green-500" />
+               <StarIcon className="w-12 h-12 text-yellow-400" />
+             </div>
              <p className="text-2xl font-bold text-green-600">{successMessage}</p>
              <button onClick={onComplete} className="mt-6 px-8 py-3 bg-green-500 text-white rounded-full hover:bg-green-600">下一關</button>
           </div>

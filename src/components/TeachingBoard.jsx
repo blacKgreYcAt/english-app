@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { MicrophoneIcon, MicrophoneAnimatedIcon, SpeakerIcon, LightBulbIcon, AlertIcon, StarIcon } from './Icons';
 
 const TeachingBoard = ({ lessonData, onComplete }) => {
   const { title, content } = lessonData;
@@ -67,23 +68,46 @@ const TeachingBoard = ({ lessonData, onComplete }) => {
               {index < array.length - 1 && <span className="text-red-500 text-4xl mx-1 underline">{content.highlight}</span>}
             </React.Fragment>
           ))}
-          <button onClick={() => playTeacherVoice(content.text)} className="ml-4 p-2 bg-blue-500 text-white rounded-full">🔊</button>
+          <button onClick={() => playTeacherVoice(content.text)} className="ml-4 p-2 bg-blue-500 text-white rounded-full hover:bg-blue-600" title="播放示範發音">
+            <SpeakerIcon className="w-6 h-6 text-white" />
+          </button>
         </p>
-        <div className="mt-4 p-3 bg-yellow-100 text-yellow-800 rounded-xl">💡 {content.phonicsTip}</div>
+        <div className="mt-4 p-3 bg-yellow-100 text-yellow-800 rounded-xl flex items-center gap-2">
+          <LightBulbIcon className="w-5 h-5 text-yellow-600 flex-shrink-0" />
+          <span>{content.phonicsTip}</span>
+        </div>
       </div>
 
       <div className="flex flex-col items-center">
         <h3 className="text-xl font-bold text-gray-700 mb-4">現在換你唸唸看：<span className="text-blue-600">{content.highlight}</span></h3>
-        <button onClick={startListening} disabled={isListening} className={`w-24 h-24 rounded-full text-4xl shadow-lg ${isListening ? 'bg-red-500 animate-pulse' : 'bg-green-400'}`}>
-          {isListening ? '🎙️' : '🎤'}
+        <button
+          onClick={startListening}
+          disabled={isListening}
+          className={`w-24 h-24 rounded-full shadow-lg flex items-center justify-center transition-all ${isListening ? 'bg-red-500' : 'bg-green-400 hover:bg-green-500'}`}
+          title={isListening ? "正在錄音..." : "點擊錄音"}
+        >
+          {isListening ? (
+            <MicrophoneAnimatedIcon className="w-12 h-12 text-white" />
+          ) : (
+            <MicrophoneIcon className="w-12 h-12 text-white" />
+          )}
         </button>
         <div className="mt-6 h-24">
-          {feedback === 'success' && <span className="text-2xl font-bold text-green-500 animate-bounce">✨ 太棒了！發音很標準！ ✨</span>}
+          {feedback === 'success' && (
+            <div className="flex items-center justify-center gap-2 animate-bounce">
+              <StarIcon className="w-8 h-8 text-green-500" />
+              <span className="text-2xl font-bold text-green-500">太棒了！發音很標準！</span>
+              <StarIcon className="w-8 h-8 text-green-500" />
+            </div>
+          )}
           {feedback === 'try_again' && <span className="text-lg text-orange-500">差一點點喔！再試一次！</span>}
           {feedback === 'error' && (
-            <div className="p-3 bg-red-100 border-l-4 border-red-500 rounded text-red-700">
-              <p className="font-bold">⚠️ 出錯了</p>
-              <p className="text-sm">{recognizedText}</p>
+            <div className="p-3 bg-red-100 border-l-4 border-red-500 rounded text-red-700 flex items-start gap-2">
+              <AlertIcon className="w-6 h-6 text-red-500 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-bold">出錯了</p>
+                <p className="text-sm">{recognizedText}</p>
+              </div>
             </div>
           )}
         </div>

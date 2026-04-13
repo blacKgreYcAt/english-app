@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useUserProgress } from '../context/UserProgress';
+import { StarIcon, LightBulbIcon } from './Icons';
 
 const QuizEngine = ({ quizData, onComplete, onRewardUnlocked }) => {
   const { logMistake } = useUserProgress();
@@ -67,16 +68,26 @@ const QuizEngine = ({ quizData, onComplete, onRewardUnlocked }) => {
       </div>
 
       {showSuccess && selectedOption === question.correctOptionId && (
-        <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg animate-bounce">
-          <p className="text-green-700 font-bold text-lg">✨ 恭喜！答對了！ ✨</p>
-          <p className="text-green-600 text-sm mt-2">下一題...</p>
+        <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg animate-bounce flex items-center gap-2">
+          <StarIcon className="w-6 h-6 text-green-600" />
+          <div>
+            <p className="text-green-700 font-bold text-lg">恭喜！答對了！</p>
+            <p className="text-green-600 text-sm mt-2">下一題...</p>
+          </div>
+          <StarIcon className="w-6 h-6 text-green-600" />
         </div>
       )}
 
       {showExplanation && selectedOption !== question.correctOptionId && (
         <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
-          <p className="text-yellow-800 font-medium mb-2">🦉 {question.errorExplanation[selectedOption]}</p>
-          <p className="text-gray-600 text-sm italic">💡 {question.errorExplanation.generalTip}</p>
+          <p className="text-yellow-800 font-medium mb-2 flex items-center gap-2">
+            <span className="text-2xl">🦉</span>
+            {question.errorExplanation[selectedOption]}
+          </p>
+          <p className="text-gray-600 text-sm italic flex items-center gap-2">
+            <LightBulbIcon className="w-4 h-4 text-yellow-600 flex-shrink-0" />
+            {question.errorExplanation.generalTip}
+          </p>
           <button onClick={() => setShowExplanation(false)} className="mt-3 px-4 py-2 bg-yellow-200 rounded-lg hover:bg-yellow-300">再試一次！</button>
         </div>
       )}
