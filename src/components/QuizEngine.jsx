@@ -69,12 +69,12 @@ const QuizEngine = ({ quizData, onComplete, onRewardUnlocked }) => {
 
       {showSuccess && selectedOption === question.correctOptionId && (
         <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg animate-bounce flex items-center gap-2">
-          <StarIcon className="w-6 h-6" color="#16a34a" />
+          <StarIcon className="w-6 h-6" />
           <div>
             <p className="text-green-700 font-bold text-lg">恭喜！答對了！</p>
             <p className="text-green-600 text-sm mt-2">下一題...</p>
           </div>
-          <StarIcon className="w-6 h-6" color="#16a34a" />
+          <StarIcon className="w-6 h-6" />
         </div>
       )}
 
@@ -85,7 +85,7 @@ const QuizEngine = ({ quizData, onComplete, onRewardUnlocked }) => {
             {question.errorExplanation[selectedOption]}
           </p>
           <p className="text-gray-600 text-sm italic flex items-center gap-2">
-            <LightBulbIcon className="w-4 h-4" color="#b45900" />
+            <LightBulbIcon className="w-4 h-4" />
             {question.errorExplanation.generalTip}
           </p>
           <button onClick={() => setShowExplanation(false)} className="mt-3 px-4 py-2 bg-yellow-200 rounded-lg hover:bg-yellow-300">再試一次！</button>

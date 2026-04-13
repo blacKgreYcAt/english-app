@@ -62,9 +62,9 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
     if (phase === 'victory') return (
       <div className="text-center mt-20">
         <div className="flex items-center justify-center gap-4 mb-6">
-          <CelebrationIcon className="w-16 h-16" color="#eab308" />
+          <CelebrationIcon className="w-16 h-16" />
           <h1 className="text-5xl text-yellow-500">挑戰成功！</h1>
-          <CelebrationIcon className="w-16 h-16" color="#eab308" />
+          <CelebrationIcon className="w-16 h-16" />
         </div>
         <button onClick={onBackToMap} className="px-8 py-4 bg-blue-500 text-white rounded-full hover:bg-blue-600">回到學習地圖</button>
       </div>
@@ -75,7 +75,7 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
   return (
     <div className="min-h-screen bg-[#f0f9ff] p-6">
       <button onClick={onBackToMap} className="mb-8 text-blue-600 font-bold flex items-center gap-2 hover:text-blue-800">
-        <ArrowLeftIcon className="w-5 h-5" color="#2563eb" />
+        <ArrowLeftIcon className="w-5 h-5" />
         放棄挑戰
       </button>
       {renderContent()}
