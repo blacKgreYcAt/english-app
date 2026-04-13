@@ -59,7 +59,7 @@
   <ellipse cx="100" cy="165" rx="10" ry="7" fill="#FFB3BA" opacity="0.4"/>
 
   <!-- Text label -->
-  <text x="200" y="290" font-size="20" font-weight="bold" text-anchor="middle" fill="#33691E" font-family="Arial, sans-serif">
-    Chameleon BEHIND Tree
+  <text x="200" y="290" font-size="18" font-weight="bold" text-anchor="middle" fill="#33691E" font-family="Arial, sans-serif">
+    The chameleon is BEHIND the tree
   </text>
 </svg>

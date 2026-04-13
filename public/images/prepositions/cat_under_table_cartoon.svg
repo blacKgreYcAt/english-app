@@ -81,7 +81,7 @@
   <circle cx="245" cy="150" r="8" fill="#FFB3BA" opacity="0.6"/>
 
   <!-- Text label -->
-  <text x="200" y="290" font-size="20" font-weight="bold" text-anchor="middle" fill="#FF7F2D" font-family="Arial, sans-serif">
-    Cat UNDER Table
+  <text x="200" y="290" font-size="18" font-weight="bold" text-anchor="middle" fill="#FF7F2D" font-family="Arial, sans-serif">
+    The cat is UNDER the table
   </text>
 </svg>
