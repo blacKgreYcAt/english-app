@@ -63,4 +63,10 @@ export const UserProgressProvider = ({ children }) => {
   );
 };
 
-export const useUserProgress = () => useContext(UserProgressContext);
+export const useUserProgress = () => {
+  const context = useContext(UserProgressContext);
+  if (!context) {
+    throw new Error('useUserProgress must be used within UserProgressProvider');
+  }
+  return context;
+};

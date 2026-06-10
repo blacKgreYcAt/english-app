@@ -8,8 +8,19 @@ const Home = ({ onSelectModule }) => {
 
   const checkIsUnlocked = (gIndex, mIndex) => {
     if (gIndex === 0 && mIndex === 0) return true;
-    if (mIndex > 0) return completedModules.includes(curriculumData[gIndex].modules[mIndex - 1].moduleId);
-    return completedModules.includes(curriculumData[gIndex - 1].modules[curriculumData[gIndex - 1].modules.length - 1].moduleId);
+    if (mIndex > 0) {
+      if (curriculumData?.[gIndex]?.modules?.[mIndex - 1]?.moduleId) {
+        return completedModules.includes(curriculumData[gIndex].modules[mIndex - 1].moduleId);
+      }
+      return false;
+    }
+    if (gIndex > 0 && curriculumData?.[gIndex - 1]?.modules) {
+      const prevModules = curriculumData[gIndex - 1].modules;
+      if (prevModules.length > 0) {
+        return completedModules.includes(prevModules[prevModules.length - 1].moduleId);
+      }
+    }
+    return false;
   };
 
   return (
@@ -27,7 +38,7 @@ const Home = ({ onSelectModule }) => {
                   <button key={mod.moduleId} onClick={() => isUnlocked && onSelectModule(mod.moduleId)} disabled={!isUnlocked}
                     className={`w-64 p-5 rounded-3xl border-4 ${isCompleted ? 'bg-white border-green-400' : isUnlocked ? 'bg-yellow-50 border-yellow-400' : 'bg-gray-200 border-gray-300 opacity-70'}`}>
                     <h3 className="text-xl font-bold">{mod.moduleTitle}</h3>
-                    {!isCompleted && isUnlocked && <div className="text-xs text-purple-600 mt-2">🎁 {mod.rewardCard.cardName}</div>}
+                    {!isCompleted && isUnlocked && mod?.rewardCard?.cardName && <div className="text-xs text-purple-600 mt-2">🎁 {mod.rewardCard.cardName}</div>}
                   </button>
                 );
               })}
