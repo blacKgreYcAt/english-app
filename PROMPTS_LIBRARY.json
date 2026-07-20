@@ -1,0 +1,386 @@
+{
+  "level1_module1": {
+    "moduleTitle": "基礎詞彙：日常生活",
+    "description": "學習25個常用英文單詞，掌握consonant、conspiracy、constant等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識consonant、conspiracy、constant",
+        "text": "The consonant is important.",
+        "highlight": "consonant"
+      },
+      "lesson2": {
+        "title": "深入學習：construct",
+        "text": "The construct is important.",
+        "highlight": "construct"
+      }
+    }
+  },
+  "level1_module2": {
+    "moduleTitle": "進階詞彙：動作與狀態",
+    "description": "學習25個常用英文單詞，掌握contrary、contrast、contribute等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識contrary、contrast、contribute",
+        "text": "The contrary is important.",
+        "highlight": "contrary"
+      },
+      "lesson2": {
+        "title": "深入學習：contrite",
+        "text": "The contrite is important.",
+        "highlight": "contrite"
+      }
+    }
+  },
+  "level1_module3": {
+    "moduleTitle": "延伸詞彙：描述與感受",
+    "description": "學習25個常用英文單詞，掌握cooperation、coordinate、cope等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cooperation、coordinate、cope",
+        "text": "The cooperation is important.",
+        "highlight": "cooperation"
+      },
+      "lesson2": {
+        "title": "深入學習：copyright",
+        "text": "The copyright is important.",
+        "highlight": "copyright"
+      }
+    }
+  },
+  "level1_module4": {
+    "moduleTitle": "綜合詞彙：句子應用",
+    "description": "學習25個常用英文單詞，掌握corruption、cost、costume等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識corruption、cost、costume",
+        "text": "The corruption is important.",
+        "highlight": "corruption"
+      },
+      "lesson2": {
+        "title": "深入學習：couch",
+        "text": "The couch is important.",
+        "highlight": "couch"
+      }
+    }
+  },
+  "level2_module1": {
+    "moduleTitle": "基礎詞彙：日常生活",
+    "description": "學習25個常用英文單詞，掌握cove、covenant、cover等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cove、covenant、cover",
+        "text": "The cove is important.",
+        "highlight": "cove"
+      },
+      "lesson2": {
+        "title": "深入學習：covet",
+        "text": "The covet is important.",
+        "highlight": "covet"
+      }
+    }
+  },
+  "level2_module2": {
+    "moduleTitle": "進階詞彙：動作與狀態",
+    "description": "學習25個常用英文單詞，掌握crave、crawl、crazy等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識crave、crawl、crazy",
+        "text": "The crave is important.",
+        "highlight": "crave"
+      },
+      "lesson2": {
+        "title": "深入學習：crease",
+        "text": "The crease is important.",
+        "highlight": "crease"
+      }
+    }
+  },
+  "level2_module3": {
+    "moduleTitle": "延伸詞彙：描述與感受",
+    "description": "學習25個常用英文單詞，掌握crenelate、creole、creosote等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識crenelate、creole、creosote",
+        "text": "The crenelate is important.",
+        "highlight": "crenelate"
+      },
+      "lesson2": {
+        "title": "深入學習：crescent",
+        "text": "The crescent is important.",
+        "highlight": "crescent"
+      }
+    }
+  },
+  "level2_module4": {
+    "moduleTitle": "綜合詞彙：句子應用",
+    "description": "學習25個常用英文單詞，掌握cringe、crinkle、crinoline等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cringe、crinkle、crinoline",
+        "text": "The cringe is important.",
+        "highlight": "cringe"
+      },
+      "lesson2": {
+        "title": "深入學習：crisp",
+        "text": "The crisp is important.",
+        "highlight": "crisp"
+      }
+    }
+  },
+  "level3_module1": {
+    "moduleTitle": "基礎詞彙：日常生活",
+    "description": "學習25個常用英文單詞，掌握crook、crooked、croon等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識crook、crooked、croon",
+        "text": "The crook is important.",
+        "highlight": "crook"
+      },
+      "lesson2": {
+        "title": "深入學習：croquet",
+        "text": "The croquet is important.",
+        "highlight": "croquet"
+      }
+    }
+  },
+  "level3_module2": {
+    "moduleTitle": "進階詞彙：動作與狀態",
+    "description": "學習25個常用英文單詞，掌握crown、crucial、crucible等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識crown、crucial、crucible",
+        "text": "The crown is important.",
+        "highlight": "crown"
+      },
+      "lesson2": {
+        "title": "深入學習：crucify",
+        "text": "The crucify is important.",
+        "highlight": "crucify"
+      }
+    }
+  },
+  "level3_module3": {
+    "moduleTitle": "延伸詞彙：描述與感受",
+    "description": "學習25個常用英文單詞，掌握crusty、crutch、crux等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識crusty、crutch、crux",
+        "text": "The crusty is important.",
+        "highlight": "crusty"
+      },
+      "lesson2": {
+        "title": "深入學習：cryptic",
+        "text": "The cryptic is important.",
+        "highlight": "cryptic"
+      }
+    }
+  },
+  "level3_module4": {
+    "moduleTitle": "綜合詞彙：句子應用",
+    "description": "學習25個常用英文單詞，掌握cuisine、cul-de-sac、culinary等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cuisine、cul-de-sac、culinary",
+        "text": "The cuisine is important.",
+        "highlight": "cuisine"
+      },
+      "lesson2": {
+        "title": "深入學習：culmination",
+        "text": "The culmination is important.",
+        "highlight": "culmination"
+      }
+    }
+  },
+  "level4_module1": {
+    "moduleTitle": "基礎詞彙：日常生活",
+    "description": "學習25個常用英文單詞，掌握cur、curable、curacy等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cur、curable、curacy",
+        "text": "The cur is important.",
+        "highlight": "cur"
+      },
+      "lesson2": {
+        "title": "深入學習：curative",
+        "text": "The curative is important.",
+        "highlight": "curative"
+      }
+    }
+  },
+  "level4_module2": {
+    "moduleTitle": "進階詞彙：動作與狀態",
+    "description": "學習25個常用英文單詞，掌握curricula、curriculum、currier等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識curricula、curriculum、currier",
+        "text": "The curricula is important.",
+        "highlight": "curricula"
+      },
+      "lesson2": {
+        "title": "深入學習：curse",
+        "text": "The curse is important.",
+        "highlight": "curse"
+      }
+    }
+  },
+  "level4_module3": {
+    "moduleTitle": "延伸詞彙：描述與感受",
+    "description": "學習25個常用英文單詞，掌握cuspidated、cuss、cussword等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cuspidated、cuss、cussword",
+        "text": "The cuspidated is important.",
+        "highlight": "cuspidated"
+      },
+      "lesson2": {
+        "title": "深入學習：custodian",
+        "text": "The custodian is important.",
+        "highlight": "custodian"
+      }
+    }
+  },
+  "level4_module4": {
+    "moduleTitle": "綜合詞彙：句子應用",
+    "description": "學習25個常用英文單詞，掌握cutter、cutthroat、cutting等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cutter、cutthroat、cutting",
+        "text": "The cutter is important.",
+        "highlight": "cutter"
+      },
+      "lesson2": {
+        "title": "深入學習：cycad",
+        "text": "The cycad is important.",
+        "highlight": "cycad"
+      }
+    }
+  },
+  "level5_module1": {
+    "moduleTitle": "基礎詞彙：日常生活",
+    "description": "學習25個常用英文單詞，掌握chaos、chapter、character等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識chaos、chapter、character",
+        "text": "The chaos is important.",
+        "highlight": "chaos"
+      },
+      "lesson2": {
+        "title": "深入學習：chart",
+        "text": "The chart is important.",
+        "highlight": "chart"
+      }
+    }
+  },
+  "level5_module2": {
+    "moduleTitle": "進階詞彙：動作與狀態",
+    "description": "學習25個常用英文單詞，掌握chill、chilly、chime等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識chill、chilly、chime",
+        "text": "The chill is important.",
+        "highlight": "chill"
+      },
+      "lesson2": {
+        "title": "深入學習：china",
+        "text": "The china is important.",
+        "highlight": "china"
+      }
+    }
+  },
+  "level5_module3": {
+    "moduleTitle": "延伸詞彙：描述與感受",
+    "description": "學習25個常用英文單詞，掌握dace、dachshund、dadaism等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識dace、dachshund、dadaism",
+        "text": "The dace is important.",
+        "highlight": "dace"
+      },
+      "lesson2": {
+        "title": "深入學習：daemon",
+        "text": "The daemon is important.",
+        "highlight": "daemon"
+      }
+    }
+  },
+  "level5_module4": {
+    "moduleTitle": "綜合詞彙：句子應用",
+    "description": "學習25個常用英文單詞，掌握cliff、climate、climb等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識cliff、climate、climb",
+        "text": "The cliff is important.",
+        "highlight": "cliff"
+      },
+      "lesson2": {
+        "title": "深入學習：clock",
+        "text": "The clock is important.",
+        "highlight": "clock"
+      }
+    }
+  },
+  "level6_module1": {
+    "moduleTitle": "基礎詞彙：日常生活",
+    "description": "學習25個常用英文單詞，掌握code、coffee、coffer等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識code、coffee、coffer",
+        "text": "The code is important.",
+        "highlight": "code"
+      },
+      "lesson2": {
+        "title": "深入學習：coin",
+        "text": "The coin is important.",
+        "highlight": "coin"
+      }
+    }
+  },
+  "level6_module2": {
+    "moduleTitle": "進階詞彙：動作與狀態",
+    "description": "學習25個常用英文單詞，掌握commercial、commission、commit等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識commercial、commission、commit",
+        "text": "The commercial is important.",
+        "highlight": "commercial"
+      },
+      "lesson2": {
+        "title": "深入學習：common",
+        "text": "The common is important.",
+        "highlight": "common"
+      }
+    }
+  },
+  "level6_module3": {
+    "moduleTitle": "延伸詞彙：描述與感受",
+    "description": "學習25個常用英文單詞，掌握composition、compound、comprehensive等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識composition、compound、comprehensive",
+        "text": "The composition is important.",
+        "highlight": "composition"
+      },
+      "lesson2": {
+        "title": "深入學習：conceal",
+        "text": "The conceal is important.",
+        "highlight": "conceal"
+      }
+    }
+  },
+  "level6_module4": {
+    "moduleTitle": "綜合詞彙：句子應用",
+    "description": "學習25個常用英文單詞，掌握confirm、conflict、conform等關鍵字彙。",
+    "lessons": {
+      "intro": {
+        "title": "認識confirm、conflict、conform",
+        "text": "The confirm is important.",
+        "highlight": "confirm"
+      },
+      "lesson2": {
+        "title": "深入學習：confuse",
+        "text": "The confuse is important.",
+        "highlight": "confuse"
+      }
+    }
+  }
+}

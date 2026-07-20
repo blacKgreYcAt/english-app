@@ -1,0 +1,1658 @@
+{
+  "level1_module1": {
+    "moduleInfo": {
+      "moduleTitle": "基礎詞彙：日常生活",
+      "description": "學習25個常用英文單詞，掌握consonant、conspiracy、constant等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識consonant、conspiracy、constant",
+          "text": "The consonant is important.",
+          "highlight": "consonant"
+        },
+        "lesson2": {
+          "title": "深入學習：construct",
+          "text": "The construct is important.",
+          "highlight": "construct"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"consonant\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"construct\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level1_module2": {
+    "moduleInfo": {
+      "moduleTitle": "進階詞彙：動作與狀態",
+      "description": "學習25個常用英文單詞，掌握contrary、contrast、contribute等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識contrary、contrast、contribute",
+          "text": "The contrary is important.",
+          "highlight": "contrary"
+        },
+        "lesson2": {
+          "title": "深入學習：contrite",
+          "text": "The contrite is important.",
+          "highlight": "contrite"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"contrary\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"contrite\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level1_module3": {
+    "moduleInfo": {
+      "moduleTitle": "延伸詞彙：描述與感受",
+      "description": "學習25個常用英文單詞，掌握cooperation、coordinate、cope等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cooperation、coordinate、cope",
+          "text": "The cooperation is important.",
+          "highlight": "cooperation"
+        },
+        "lesson2": {
+          "title": "深入學習：copyright",
+          "text": "The copyright is important.",
+          "highlight": "copyright"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cooperation\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"copyright\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level1_module4": {
+    "moduleInfo": {
+      "moduleTitle": "綜合詞彙：句子應用",
+      "description": "學習25個常用英文單詞，掌握corruption、cost、costume等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識corruption、cost、costume",
+          "text": "The corruption is important.",
+          "highlight": "corruption"
+        },
+        "lesson2": {
+          "title": "深入學習：couch",
+          "text": "The couch is important.",
+          "highlight": "couch"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"corruption\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"couch\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level2_module1": {
+    "moduleInfo": {
+      "moduleTitle": "基礎詞彙：日常生活",
+      "description": "學習25個常用英文單詞，掌握cove、covenant、cover等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cove、covenant、cover",
+          "text": "The cove is important.",
+          "highlight": "cove"
+        },
+        "lesson2": {
+          "title": "深入學習：covet",
+          "text": "The covet is important.",
+          "highlight": "covet"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cove\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"covet\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level2_module2": {
+    "moduleInfo": {
+      "moduleTitle": "進階詞彙：動作與狀態",
+      "description": "學習25個常用英文單詞，掌握crave、crawl、crazy等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識crave、crawl、crazy",
+          "text": "The crave is important.",
+          "highlight": "crave"
+        },
+        "lesson2": {
+          "title": "深入學習：crease",
+          "text": "The crease is important.",
+          "highlight": "crease"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crave\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crease\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level2_module3": {
+    "moduleInfo": {
+      "moduleTitle": "延伸詞彙：描述與感受",
+      "description": "學習25個常用英文單詞，掌握crenelate、creole、creosote等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識crenelate、creole、creosote",
+          "text": "The crenelate is important.",
+          "highlight": "crenelate"
+        },
+        "lesson2": {
+          "title": "深入學習：crescent",
+          "text": "The crescent is important.",
+          "highlight": "crescent"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crenelate\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crescent\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level2_module4": {
+    "moduleInfo": {
+      "moduleTitle": "綜合詞彙：句子應用",
+      "description": "學習25個常用英文單詞，掌握cringe、crinkle、crinoline等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cringe、crinkle、crinoline",
+          "text": "The cringe is important.",
+          "highlight": "cringe"
+        },
+        "lesson2": {
+          "title": "深入學習：crisp",
+          "text": "The crisp is important.",
+          "highlight": "crisp"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cringe\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crisp\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level3_module1": {
+    "moduleInfo": {
+      "moduleTitle": "基礎詞彙：日常生活",
+      "description": "學習25個常用英文單詞，掌握crook、crooked、croon等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識crook、crooked、croon",
+          "text": "The crook is important.",
+          "highlight": "crook"
+        },
+        "lesson2": {
+          "title": "深入學習：croquet",
+          "text": "The croquet is important.",
+          "highlight": "croquet"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crook\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"croquet\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level3_module2": {
+    "moduleInfo": {
+      "moduleTitle": "進階詞彙：動作與狀態",
+      "description": "學習25個常用英文單詞，掌握crown、crucial、crucible等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識crown、crucial、crucible",
+          "text": "The crown is important.",
+          "highlight": "crown"
+        },
+        "lesson2": {
+          "title": "深入學習：crucify",
+          "text": "The crucify is important.",
+          "highlight": "crucify"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crown\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crucify\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level3_module3": {
+    "moduleInfo": {
+      "moduleTitle": "延伸詞彙：描述與感受",
+      "description": "學習25個常用英文單詞，掌握crusty、crutch、crux等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識crusty、crutch、crux",
+          "text": "The crusty is important.",
+          "highlight": "crusty"
+        },
+        "lesson2": {
+          "title": "深入學習：cryptic",
+          "text": "The cryptic is important.",
+          "highlight": "cryptic"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"crusty\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cryptic\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level3_module4": {
+    "moduleInfo": {
+      "moduleTitle": "綜合詞彙：句子應用",
+      "description": "學習25個常用英文單詞，掌握cuisine、cul-de-sac、culinary等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cuisine、cul-de-sac、culinary",
+          "text": "The cuisine is important.",
+          "highlight": "cuisine"
+        },
+        "lesson2": {
+          "title": "深入學習：culmination",
+          "text": "The culmination is important.",
+          "highlight": "culmination"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cuisine\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"culmination\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level4_module1": {
+    "moduleInfo": {
+      "moduleTitle": "基礎詞彙：日常生活",
+      "description": "學習25個常用英文單詞，掌握cur、curable、curacy等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cur、curable、curacy",
+          "text": "The cur is important.",
+          "highlight": "cur"
+        },
+        "lesson2": {
+          "title": "深入學習：curative",
+          "text": "The curative is important.",
+          "highlight": "curative"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cur\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"curative\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level4_module2": {
+    "moduleInfo": {
+      "moduleTitle": "進階詞彙：動作與狀態",
+      "description": "學習25個常用英文單詞，掌握curricula、curriculum、currier等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識curricula、curriculum、currier",
+          "text": "The curricula is important.",
+          "highlight": "curricula"
+        },
+        "lesson2": {
+          "title": "深入學習：curse",
+          "text": "The curse is important.",
+          "highlight": "curse"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"curricula\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"curse\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level4_module3": {
+    "moduleInfo": {
+      "moduleTitle": "延伸詞彙：描述與感受",
+      "description": "學習25個常用英文單詞，掌握cuspidated、cuss、cussword等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cuspidated、cuss、cussword",
+          "text": "The cuspidated is important.",
+          "highlight": "cuspidated"
+        },
+        "lesson2": {
+          "title": "深入學習：custodian",
+          "text": "The custodian is important.",
+          "highlight": "custodian"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cuspidated\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"custodian\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level4_module4": {
+    "moduleInfo": {
+      "moduleTitle": "綜合詞彙：句子應用",
+      "description": "學習25個常用英文單詞，掌握cutter、cutthroat、cutting等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cutter、cutthroat、cutting",
+          "text": "The cutter is important.",
+          "highlight": "cutter"
+        },
+        "lesson2": {
+          "title": "深入學習：cycad",
+          "text": "The cycad is important.",
+          "highlight": "cycad"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cutter\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cycad\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level5_module1": {
+    "moduleInfo": {
+      "moduleTitle": "基礎詞彙：日常生活",
+      "description": "學習25個常用英文單詞，掌握chaos、chapter、character等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識chaos、chapter、character",
+          "text": "The chaos is important.",
+          "highlight": "chaos"
+        },
+        "lesson2": {
+          "title": "深入學習：chart",
+          "text": "The chart is important.",
+          "highlight": "chart"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"chaos\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"chart\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level5_module2": {
+    "moduleInfo": {
+      "moduleTitle": "進階詞彙：動作與狀態",
+      "description": "學習25個常用英文單詞，掌握chill、chilly、chime等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識chill、chilly、chime",
+          "text": "The chill is important.",
+          "highlight": "chill"
+        },
+        "lesson2": {
+          "title": "深入學習：china",
+          "text": "The china is important.",
+          "highlight": "china"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"chill\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"china\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level5_module3": {
+    "moduleInfo": {
+      "moduleTitle": "延伸詞彙：描述與感受",
+      "description": "學習25個常用英文單詞，掌握dace、dachshund、dadaism等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識dace、dachshund、dadaism",
+          "text": "The dace is important.",
+          "highlight": "dace"
+        },
+        "lesson2": {
+          "title": "深入學習：daemon",
+          "text": "The daemon is important.",
+          "highlight": "daemon"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"dace\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"daemon\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level5_module4": {
+    "moduleInfo": {
+      "moduleTitle": "綜合詞彙：句子應用",
+      "description": "學習25個常用英文單詞，掌握cliff、climate、climb等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識cliff、climate、climb",
+          "text": "The cliff is important.",
+          "highlight": "cliff"
+        },
+        "lesson2": {
+          "title": "深入學習：clock",
+          "text": "The clock is important.",
+          "highlight": "clock"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"cliff\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"clock\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level6_module1": {
+    "moduleInfo": {
+      "moduleTitle": "基礎詞彙：日常生活",
+      "description": "學習25個常用英文單詞，掌握code、coffee、coffer等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識code、coffee、coffer",
+          "text": "The code is important.",
+          "highlight": "code"
+        },
+        "lesson2": {
+          "title": "深入學習：coin",
+          "text": "The coin is important.",
+          "highlight": "coin"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"code\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"coin\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level6_module2": {
+    "moduleInfo": {
+      "moduleTitle": "進階詞彙：動作與狀態",
+      "description": "學習25個常用英文單詞，掌握commercial、commission、commit等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識commercial、commission、commit",
+          "text": "The commercial is important.",
+          "highlight": "commercial"
+        },
+        "lesson2": {
+          "title": "深入學習：common",
+          "text": "The common is important.",
+          "highlight": "common"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"commercial\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"common\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level6_module3": {
+    "moduleInfo": {
+      "moduleTitle": "延伸詞彙：描述與感受",
+      "description": "學習25個常用英文單詞，掌握composition、compound、comprehensive等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識composition、compound、comprehensive",
+          "text": "The composition is important.",
+          "highlight": "composition"
+        },
+        "lesson2": {
+          "title": "深入學習：conceal",
+          "text": "The conceal is important.",
+          "highlight": "conceal"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"composition\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"conceal\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  },
+  "level6_module4": {
+    "moduleInfo": {
+      "moduleTitle": "綜合詞彙：句子應用",
+      "description": "學習25個常用英文單詞，掌握confirm、conflict、conform等關鍵字彙。",
+      "lessons": {
+        "intro": {
+          "title": "認識confirm、conflict、conform",
+          "text": "The confirm is important.",
+          "highlight": "confirm"
+        },
+        "lesson2": {
+          "title": "深入學習：confuse",
+          "text": "The confuse is important.",
+          "highlight": "confuse"
+        }
+      }
+    },
+    "images": {
+      "intro": {
+        "filename": "intro.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"confirm\". Scene shows the concept with friendly characters, vibrant colors (reds, blues, greens, yellows), perfect for children's English learning app, high quality, professional illustration",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF6B6B",
+          "#2196F3",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "lesson2": {
+        "filename": "lesson2.png",
+        "size": "800x600",
+        "type": "teaching",
+        "aiPrompt": "Colorful cartoon illustration teaching the word \"confuse\". Scene shows the concept with cute characters, vibrant colors, perfect for children's learning, high quality, professional style",
+        "style": "colorful cartoon",
+        "colors": [
+          "#FF9F43",
+          "#00BCD4",
+          "#00C853",
+          "#FFD700"
+        ]
+      },
+      "card": {
+        "filename": "card.png",
+        "size": "300x300",
+        "type": "practice card",
+        "aiPrompt": "Cute simple cartoon icon for interactive learning card, centered, isolated on white background. Vibrant colors, child-friendly, perfect for dragging game",
+        "style": "simple cartoon icon",
+        "colors": [
+          "#FFD700",
+          "#FF9F43"
+        ]
+      },
+      "scene": {
+        "filename": "scene.png",
+        "size": "800x600",
+        "type": "practice background",
+        "aiPrompt": "Cute cartoon scene background for interactive learning game. Bright cheerful colors, suitable for dragging and matching activities, not too busy",
+        "style": "colorful cartoon background",
+        "colors": [
+          "#E8F5E9",
+          "#E3F2FD",
+          "#FFF9C4"
+        ]
+      }
+    }
+  }
+}
