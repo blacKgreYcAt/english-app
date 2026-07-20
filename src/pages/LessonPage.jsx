@@ -15,9 +15,13 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
 
   useEffect(() => {
     let found = null;
-    for (const grade of curriculumData) {
-      found = grade.modules.find(m => m.moduleId === currentModuleId);
-      if (found) break;
+    if (curriculumData && Array.isArray(curriculumData)) {
+      for (const grade of curriculumData) {
+        if (grade?.modules && Array.isArray(grade.modules)) {
+          found = grade.modules.find(m => m?.moduleId === currentModuleId);
+          if (found) break;
+        }
+      }
     }
     setModuleData(found);
   }, [currentModuleId]);
@@ -30,7 +34,9 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
       else setPhase('quiz');
     } else if (phase === 'quiz') {
       completeModule(moduleData.moduleId);
-      unlockCard(moduleData.rewardCard.cardId);
+      if (moduleData?.rewardCard?.cardId) {
+        unlockCard(moduleData.rewardCard.cardId);
+      }
       setPhase('victory');
     }
   };
@@ -57,7 +63,7 @@ const LessonPage = ({ currentModuleId, onBackToMap }) => {
       if (!moduleData.quiz) {
         return <div className="text-center text-red-500">錯誤：找不到測驗資料</div>;
       }
-      return <QuizEngine quizData={moduleData.quiz} onComplete={handleNextStep} onRewardUnlocked={() => {}} />;
+      return <QuizEngine quizData={moduleData.quiz} onComplete={handleNextStep} onRewardUnlocked={undefined} />;
     }
     if (phase === 'victory') return (
       <div className="text-center mt-20">

@@ -33,7 +33,9 @@ const QuizEngine = ({ quizData, onComplete, onRewardUnlocked }) => {
     if (currentQIndex < quizData.questions.length - 1) {
       setCurrentQIndex(prev => prev + 1);
     } else {
-      onRewardUnlocked();
+      if (typeof onRewardUnlocked === 'function') {
+        onRewardUnlocked();
+      }
       onComplete();
     }
   };
@@ -82,11 +84,11 @@ const QuizEngine = ({ quizData, onComplete, onRewardUnlocked }) => {
         <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
           <p className="text-yellow-800 font-medium mb-2 flex items-center gap-2">
             <span className="text-2xl">🦉</span>
-            {question.errorExplanation[selectedOption]}
+            {question?.errorExplanation?.[selectedOption] || '答案不對喔，再試一次！'}
           </p>
           <p className="text-gray-600 text-sm italic flex items-center gap-2">
             <LightBulbIcon className="w-4 h-4" />
-            {question.errorExplanation.generalTip}
+            {question?.errorExplanation?.generalTip || '多練習幾次就能答對！'}
           </p>
           <button onClick={() => setShowExplanation(false)} className="mt-3 px-4 py-2 bg-yellow-200 rounded-lg hover:bg-yellow-300">再試一次！</button>
         </div>

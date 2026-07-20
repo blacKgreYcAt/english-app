@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useUserProgress } from '../context/UserProgress';
 
 const CardCollection = ({ allCardsConfig }) => {
   const { unlockedCards } = useUserProgress();
+  const [failedImages, setFailedImages] = useState(new Set());
+
+  const handleImageError = (cardId) => {
+    setFailedImages(prev => new Set(prev).add(cardId));
+  };
 
   return (
     <div className="p-8 bg-slate-900 min-h-screen">
@@ -11,11 +16,16 @@ const CardCollection = ({ allCardsConfig }) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {allCardsConfig.map((card) => {
           const isUnlocked = unlockedCards.includes(card.cardId);
+          const imageError = failedImages.has(card.cardId);
           return (
             <div key={card.cardId} className={`rounded-xl border-4 ${isUnlocked ? 'border-yellow-400 bg-white p-2' : 'border-slate-700 bg-slate-800 h-48 flex items-center justify-center opacity-50'}`}>
               {isUnlocked ? (
                 <div className="text-center">
-                  <img src={`/images/cards/${card.cardId}.png`} alt={card.cardName} className="w-full rounded" />
+                  {imageError ? (
+                    <div className="w-full h-32 bg-gray-300 rounded flex items-center justify-center text-gray-600 text-xs">圖片加載失敗</div>
+                  ) : (
+                    <img src={`/images/cards/${card.cardId}.png`} alt={card.cardName} className="w-full rounded" onError={() => handleImageError(card.cardId)} />
+                  )}
                   <h4 className="mt-2 font-bold">{card.cardName}</h4>
                 </div>
               ) : <span className="text-5xl">🔒</span>}

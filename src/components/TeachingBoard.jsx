@@ -4,10 +4,14 @@ import { MicrophoneIcon, MicrophoneAnimatedIcon, SpeakerIcon, LightBulbIcon, Ale
 
 const TeachingBoard = ({ lessonData, onComplete }) => {
   const { title, content } = lessonData;
+  if (!content?.highlight || typeof content.highlight !== 'string') {
+    return <div className="text-center text-red-500">錯誤：課程內容不完整</div>;
+  }
   const targetWord = content.highlight.toLowerCase();
   const [isListening, setIsListening] = useState(false);
   const [recognizedText, setRecognizedText] = useState("");
   const [feedback, setFeedback] = useState(null);
+  const [imageError, setImageError] = useState(false);
 
   const playTeacherVoice = (text, rate = 0.85) => {
     if (isListening) return; 
@@ -27,6 +31,11 @@ const TeachingBoard = ({ lessonData, onComplete }) => {
 
     recognition.onstart = () => { setIsListening(true); setFeedback(null); setRecognizedText("仔細聽你說..."); };
     recognition.onresult = (event) => {
+      if (!event?.results?.[0]?.[0]?.transcript) {
+        setRecognizedText('無法識別語音，請再試一次。');
+        setFeedback('error');
+        return;
+      }
       const transcript = event.results[0][0].transcript.toLowerCase();
       setRecognizedText(transcript);
       if (transcript.includes(targetWord)) {
@@ -58,7 +67,13 @@ const TeachingBoard = ({ lessonData, onComplete }) => {
   return (
     <div className="teaching-board max-w-3xl mx-auto p-8 bg-white rounded-3xl shadow-xl">
       <h2 className="text-3xl font-extrabold text-blue-600 mb-6 text-center">{title}</h2>
-      <div className="flex justify-center mb-8"><img src={content.image} alt="Lesson" className="w-80 rounded-2xl shadow-md" /></div>
+      <div className="flex justify-center mb-8">
+        {imageError ? (
+          <div className="w-80 h-60 bg-gray-200 rounded-2xl shadow-md flex items-center justify-center text-gray-500">圖片加載失敗</div>
+        ) : (
+          <img src={content.image} alt="Lesson" className="w-80 rounded-2xl shadow-md" onError={() => setImageError(true)} />
+        )}
+      </div>
       
       <div className="sentence-box bg-blue-50 p-6 rounded-2xl mb-8 text-center">
         <p className="text-2xl font-bold text-gray-800 flex items-center justify-center gap-3">
